@@ -23,9 +23,18 @@
     "require": {
         "php": "^7.0 || ^8.0",
         "ext-json": "*",
-        "opis/string": "^2.0",
+        "magazord-plataforma/string": "dev-master",
         "opis/uri": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/magazord-plataforma/string.git",
+            "package": {
+                "name": "magazord-plataforma/string"
+            }
+        }
+    ],
     "require-dev": {
         "ext-bcmath": "*",
         "ext-intl": "*",
